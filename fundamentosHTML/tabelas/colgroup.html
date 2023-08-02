@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+    font-family: sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+
+  /*Se quiséssemos aplicar as informações de estilo a ambas as colunas, poderíamos incluir apenas um <col>elemento com um atributo span nele, assim:
+
+        <colgroup>
+  <col style="background-color: yellow" span="2" />
+</colgroup>
+
+*/
+
+    </style>
+</head>
+<body>
+    
+<div>
+    <table>
+        <colgroup>
+            <col/>
+            <col style="background-color: yellow;"/>
+            
+        </colgroup>
+    
+        <tr>
+            <th>Data1</th>
+            <th>Data2</th>
+        </tr>
+        <tr>
+            <td>Calcutta</td>
+            <td>Orange</td>
+        </tr>
+    
+        <tr>
+            <td>Robots</td>
+            <td>Jazz</td>
+        </tr>
+    </table>
+</div>
+
+<p>Esta é uma forma interessante, de economizar tempo, e declarar prorpiedades da tabela <br> dentro do elemento <code> < colgroup> </code> </p>
+ 
+
+
+</body>
+</html>
