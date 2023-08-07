@@ -33,16 +33,3 @@ html {
   caption {
     padding: 10px;
   }
-
-  tbody{
-    font-size: 95%;
-    font-style: italic;
-  }
-
-  tfoot {
-    font-weight: bold;
-  }
-
- mark{
-  background-color: rgba(77, 74, 74, 0.151);  
-}
