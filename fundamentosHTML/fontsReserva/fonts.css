@@ -3,4 +3,36 @@
 
 body{
     font-family: 'ADLaM Display', cursive, 'Roboto Condensed', sans-serif;
+    
+}
+
+h1{
+    text-shadow: 2px 3px black;
+}
+/* primeiro valor eixo "x" segundo valor eixo "y" seguido de valor de cor*/
+p{
+    font-style: italic;
+    letter-spacing: 0.1em;
+    line-height: 1.5; 
+    text-align: center;
+}
+
+/*Nesta situação o lineH, aumenta o espaçamento entre as quebras de linha, e o LS aumenta o espaçamento entre uma letra e outra.*/
+
+
+.caixa{
+    background-color: aqua;
+    width: 300px;
+    height: 300;
+    padding: 50px;
+    border-radius: 25% 8%;
+    box-shadow: 3px 3px rgb(223, 222, 222);
+    
+    
+}
+
+.caixa p {
+    margin: 0;
+    opacity: 0.70;
+    text-shadow: 1px 1.3px rgba(160, 160, 160, 0.774);
 }

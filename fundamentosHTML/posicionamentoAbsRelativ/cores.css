@@ -1,0 +1,23 @@
+.parent{
+    background-color: rgb(0, 153, 255);
+    font-size: 2em;  
+    padding: 15px;
+}
+
+
+.parent > div{
+    padding: 5px;
+}
+
+.child-one{
+    background-color: greenyellow;
+    
+}
+
+.child-two{
+    background-color: orangered;    
+}
+
+.child-three{
+    background-color: pink;
+}

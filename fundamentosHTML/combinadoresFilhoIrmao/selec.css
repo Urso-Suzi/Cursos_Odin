@@ -1,0 +1,15 @@
+.group1 ~ div{
+    background-color: red;
+    padding: 100px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.group2 > div:hover {
+    background-color: rgb(123, 255, 0);
+    font-size: 20px;
+
+}
+
+
+
