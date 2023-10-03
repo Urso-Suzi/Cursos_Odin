@@ -4,8 +4,9 @@
 }
 
 .child-one{
-    position: absolute;
-   
+    position: relative;
+    left: 10px;
+   /*o position relative permite "quebrar" a estatica de um elemento, fazendo com que possamos transbordar algo para fora de uma caixa. (utilizando: left, rigth, top, bottom)*/
 }
 
 .child-two{

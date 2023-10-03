@@ -1,0 +1,32 @@
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.roxo{
+    background-color: blueviolet;
+}
+
+
+.caixao{
+    display: flex;
+    border: 1px solid black;
+}
+
+#caixao2{
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#caixao3{
+ justify-content: end;
+
+}

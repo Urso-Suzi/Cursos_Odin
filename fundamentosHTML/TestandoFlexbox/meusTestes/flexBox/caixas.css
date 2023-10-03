@@ -1,0 +1,12 @@
+.caixao *{
+    margin: 15px 5px;
+    padding: 30px;
+    border: 1px solid rgba(46, 46, 46, 0.767);
+    border-radius: 5px;
+}
+
+.caixao{
+margin-top: 5px;
+}
+
+
